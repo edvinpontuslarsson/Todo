@@ -1,6 +1,9 @@
 ﻿using System;
 using System.IO;
 
+// command to create new console app:
+// $ dotnet new console -o myApp
+
 namespace C_Todo
 {
     class Program
