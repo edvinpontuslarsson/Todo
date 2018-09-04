@@ -12,7 +12,7 @@ namespace C_Todo
         static void Main(string[] args)
         {
             string projectDir = Directory.GetCurrentDirectory();
-            string storage = projectDir + "/SavedTodos.txt"; // gets created if doesn't exist.
+            string storage = projectDir + "/SavedTodos.txt"; // gets created if doesn't exist
 
             string newTodo = string.Join(" ", args);
 
